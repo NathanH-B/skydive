@@ -1,0 +1,41 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+.plane{
+  position: absolute;
+  width: 500px;
+  z-index: 10;
+  top: 0px;
+  left: 50%;
+  margin-left: -250px
+}
+.skydiver{
+  position: fixed;
+  width: 500px;
+  z-index: 10;
+  top: 0px;
+  left: 50%;
+  margin-left: -250px;
+  z-index: 5;
+}
+.bgContainer{
+  margin: auto;
+  position: relative;
+  width: 100%;
+  display: inline-block;
+}
+.bg{
+  width: 100%;
+  display: block;
+}
+img{
+  width: 100%;
+  display: block;
+}
+.flames{
+  position: absolute;
+  bottom: 0;
+  z-index: 10;
+  width: 100%;
+}
